@@ -1,0 +1,15 @@
+package com.Mohamed.VoucherApllication.repository;
+
+import com.Mohamed.VoucherApllication.model.entity.VoucherEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+
+@Repository
+public interface VoucherRepository extends JpaRepository<VoucherEntity , Integer> {
+
+    Optional<VoucherEntity> findByCode(String code);
+
+}
