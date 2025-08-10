@@ -25,9 +25,7 @@ public class MyUserDetailService implements UserDetailsService {
         return new org.springframework.security.core.userdetails.User(
                 user.getEmail(),
                 user.getPassword(),
-                user.getRoles().stream()
-                        .map(role -> new SimpleGrantedAuthority(role.getRole()))
-                        .collect(Collectors.toList())
+                user.getRoles()
         );
     }
 }

@@ -3,6 +3,7 @@ package com.Mohamed.VoucherApllication.service.RoleService;
 
 import com.Mohamed.VoucherApllication.model.entity.RoleEntity;
 import com.Mohamed.VoucherApllication.repository.RoleRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,7 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
+    @Transactional
     public Optional<RoleEntity> findRole(int id) {
         return roleRepository.findById(id);
     }

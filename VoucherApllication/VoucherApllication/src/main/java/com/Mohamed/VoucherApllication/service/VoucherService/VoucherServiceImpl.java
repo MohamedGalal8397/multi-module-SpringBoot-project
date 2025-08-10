@@ -4,6 +4,9 @@ package com.Mohamed.VoucherApllication.service.VoucherService;
 import com.Mohamed.VoucherApllication.model.entity.VoucherEntity;
 import com.Mohamed.VoucherApllication.repository.VoucherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -33,8 +36,9 @@ public class VoucherServiceImpl  implements VoucherService {
     }
 
     @Override
-    public List<VoucherEntity> findAllVouchers() {
-        return voucherRepository.findAll() ;
+    public Page<VoucherEntity> findAllVouchers(Pageable pageable) {
+
+        return voucherRepository.findAll(pageable) ;
     }
 
     @Override

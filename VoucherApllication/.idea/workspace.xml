@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff971f8-e970-471a-8d92-b4e02d7bfab4" name="Changes" comment="" />
+    <list default="true" id="6ff971f8-e970-471a-8d92-b4e02d7bfab4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ProductApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/config/VoucherConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/controller/VoucherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/controller/VoucherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/mapper/VoucherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/mapper/VoucherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/RoleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/RoleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/VoucherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/dto/VoucherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/entity/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/entity/VoucherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/model/entity/VoucherEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/MyUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/MyUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/RoleService/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/RoleService/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/VoucherService/VoucherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/VoucherService/VoucherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/VoucherService/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/java/com/Mohamed/VoucherApllication/service/VoucherService/VoucherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoucherApllication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/VoucherApllication/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -28,12 +51,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.VoucherApllicationApplication.executor": "Run",
+    "Application.VoucherApllicationApplication.executor": "Debug",
     "Maven.VoucherApllication [clean,compile...].executor": "Run",
     "Maven.VoucherApllication [clean,compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/log/Downloads/Work/fLAGSHIP/myProjects/SpringBoot/Product_Voucher_SpringBootProject/VoucherApllication",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -42,8 +67,8 @@
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean compile" />
       <command value="mvn clean compile install" />
+      <command value="mvn clean compile" />
     </option>
   </component>
   <component name="RunManager">

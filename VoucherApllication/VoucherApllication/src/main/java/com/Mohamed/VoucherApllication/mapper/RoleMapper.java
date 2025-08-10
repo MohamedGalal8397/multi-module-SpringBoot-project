@@ -4,6 +4,7 @@ package com.Mohamed.VoucherApllication.mapper;
 import com.Mohamed.VoucherApllication.model.dto.RoleDto;
 import com.Mohamed.VoucherApllication.model.entity.RoleEntity;
 import org.mapstruct.Mapper;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.List;
 

@@ -27,6 +27,35 @@ public class VoucherEntity {
      @Column(name = "expired_date")
      Date expiredDate ;
 
+    public int getId() {
+        return id;
+    }
 
+    public String getCode() {
+        return code;
+    }
 
+    public Double getDiscount() {
+        return discount;
+    }
+
+    public Date getExpiredDate() {
+        return expiredDate;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setDiscount(Double discount) {
+        this.discount = discount;
+    }
+
+    public void setExpiredDate(Date expiredDate) {
+        this.expiredDate = expiredDate;
+    }
 }

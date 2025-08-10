@@ -24,13 +24,15 @@ public class SecurityConfig {
         http
                 .csrf().disable()
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(HttpMethod.GET , "Vouchers/**")
-                        .hasAnyRole("Admin" , "User")
-                        .requestMatchers(HttpMethod.POST , "Vouchers/**")
-                        .hasAnyRole("Admin")
+                        .requestMatchers("/error").permitAll()
+                        .requestMatchers("/css/**", "/js/**", "/images/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/Vouchers/**").hasAnyRole("ADMIN", "USER")
+                        .requestMatchers(HttpMethod.POST, "/Vouchers/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.DELETE, "/Vouchers/**").hasRole("ADMIN")
+                        .anyRequest().authenticated()
                 )
                 .userDetailsService(userDetailsService)
-                .formLogin(); // login form افتراضي من Spring Security
+                .httpBasic(); // login form افتراضي من Spring Security
 
         return http.build();
     }

@@ -35,7 +35,7 @@ public class UserDto {
     @NotNull (message = "Password can't be null ")
     String password;
 
-    private List<String> roles;
+    private List<RoleDto> roles;
 
 
 }

@@ -2,10 +2,7 @@ package com.Mohamed.VoucherApllication.model.entity;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 
 import java.sql.Date;
@@ -21,9 +18,9 @@ public class RoleEntity implements GrantedAuthority {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id  ;
+   private int id  ;
 
-    @Column(name = "name")
+
    private String role;
 
     public String getRole() {
@@ -31,11 +28,14 @@ public class RoleEntity implements GrantedAuthority {
     }
 
     @ManyToMany(mappedBy = "roles")
+    @ToString.Exclude
     private List<UserEntity> users;
 
 
     @Override
     public String getAuthority() {
-        return "";
+        return role;
     }
+
+
 }
